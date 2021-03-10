@@ -1,6 +1,8 @@
 # FPC-024
 Flytech FCP-024 8255 ISA board sample code and docs
 
+![FCP-024 photo ](fpc-024.jpg)
+
 I bought this card in 1998 and never use it, now I have time for play with it.
 
 The card has two 8255 system interface and one 8253 timer.

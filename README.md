@@ -11,13 +11,13 @@ I putted it in an odl pc that has ISA bus and write some c code.
 
 In the pdf manual you can find bord adresses and info.
 
-Program that need root privileges:
+## Program that need root privileges:
 
 On the 8255_[12]_[ABC] directory you can find prorams that blink single ports using out adn inp funtions.
 
 On the 8255 there are some program that blink all leds and power off all leds with out and inp functions.
 
-Program that should work withouth root privileges:
+## Program that should work withouth root privileges:
 
 On the devport directory there is a program that use the /dev/port device, you can run it without root privileger but you must
 
@@ -27,7 +27,7 @@ On the devport directory there is a program that use the /dev/port device, you c
 
 if you have problems run it with root privileges...
 
-To compile all program
+## To compile all program
 
 1. chmod +x compile.sh
 2. chmod +x devport/devport.sh 

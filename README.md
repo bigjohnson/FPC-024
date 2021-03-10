@@ -17,6 +17,7 @@ On the devport directory there is a program that use the /dev/port device, you c
 1. change /dev/port permission to allow group write, sudo chmod g+w /dev/port
 2. add you user to kmem group
 3. add the cap_sys_rawio to your program, see devport.sh for info
+
 if you have problems run it with root privilege...
 
 To compile all program

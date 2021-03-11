@@ -9,7 +9,7 @@ The card has two 8255 system interface and one 8253 timer.
 
 There are 16 leds connected to the A ports of the two 8255.
 
-I putted it in an old pc that has ISA bus and write some c code.
+I putted it in an old pc that has ISA bus and write some c user space code.
 
 In the pdf manual you can find bord adresses and info.
 

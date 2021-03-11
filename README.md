@@ -13,15 +13,15 @@ I putted it in an old pc that has ISA bus and write some c code.
 
 In the pdf manual you can find bord adresses and info.
 
-## Program that need root privileges:
+## Program that need root privileges
 
-On the 8255_[12]_[ABC] directory you can find prorams that blink single ports using out adn inp funtions.
+On the 8255_[12]_[ABC] directory you can find programs that blink single ports using out adn inp funtions.
 
 On the 8255 there are some program that blink all leds and power off all leds with out and inp functions.
 
-## Program that should work withouth root privileges:
+## Program that should work withouth root privileges
 
-On the devport directory there is a program that use the /dev/port device, you can run it without root privileger but you must
+On the devport directory there is a program that use the /dev/port device, you can run it without root privileger but you must:
 
 1. change /dev/port permission to allow group write, sudo chmod g+w /dev/port
 2. add you user to kmem group
@@ -33,4 +33,5 @@ if you have problems run it with root privileges...
 
 1. chmod +x compile.sh
 2. chmod +x devport/devport.sh 
+3. ./compile.sh
 

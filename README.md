@@ -15,7 +15,7 @@ In the pdf manual you can find bord adresses and info.
 
 ## Program that need root privileges
 
-On the 8255_[12]_[ABC] directory you can find programs that blink single ports using out adn inp funtions.
+On the 8255_[12]_[ABC] directory you can find programs that blink single pin using out adn inp funtions.
 
 On the 8255 there are some program that blink all leds and power off all leds with out and inp functions.
 

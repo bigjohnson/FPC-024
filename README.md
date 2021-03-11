@@ -1,5 +1,5 @@
 # FPC-024
-Flytech FCP-024 8255 ISA board sample code and docs
+Flytech FCP-024 / FT8501101 8255 ISA board sample code and docs
 
 ![FCP-024 photo ](/fpc-024.jpg)
 

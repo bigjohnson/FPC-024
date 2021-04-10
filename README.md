@@ -35,3 +35,4 @@ if you have problems run it with root privileges...
 2. chmod +x devport/devport.sh 
 3. ./compile.sh
 
+## Tested with slackware 14.2 on a pentium pc with isa bus.

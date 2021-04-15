@@ -1,4 +1,4 @@
-#Download and install comedi drivers and comedilib library.
+# Download and install comedi drivers and comedilib library.
 
 These drivers are for data acquisition cards that use 8255 and some others chip.
 
@@ -6,7 +6,7 @@ I installed them from sources in a slackware 14.2 32 bit PC.
 
 I prefer slackware 14.2 because the mainboard must have an isa bus, and is old.
 
-#Installation of comedi kernel modules
+## Installation of comedi kernel modules
 
 Install the slackware and all buid tools.
 
@@ -46,7 +46,7 @@ install them with
 
 sudo make install
 
-#Instalaltion of comedilib
+## Instalaltion of comedilib
 
 download the comedilib package from https://github.com/Linux-Comedi/comedilib/ to your home and unzip it in
 
@@ -68,7 +68,7 @@ install them with
 
 sudo make install
 
-#Load the module and test it
+## Load the module and test it
 
 load the module with the commands
 

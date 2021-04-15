@@ -142,6 +142,8 @@ and power off it
 
 and read comedilib documentatio going next!
 
+Remember that pin numbers goes from 0 to 23, 
+
 Note that you can only change port direction input or outpub by group of ports, all these command has the same effect
 
 ```
@@ -155,28 +157,28 @@ Note that you can only change port direction input or outpub by group of ports, 
 ./dio 1 -s 0 -c 7
 ```
 
-set ports 0 t0 7 to output, **8** port group
+set pin 0 t0 7 to output, **8** pin group
 
 ```
 ./dio 1 -s 0 -c 8
    ...
    ```
 
-set ports 8 t0 15 to output, **8** port group
+set pin 8 t0 15 to output, **8** pin group
 
 ```
 ./dio 1 -s 0 -c 16
    ...
    ```
 
-set ports 16 t0 19 to output, **4** port group
+set pin 16 t0 19 to output, **4** pin group
 
 ```
 ./dio 1 -s 0 -c 20
    ...
    ```
 
-set ports 20 t0 23 to output, **4** port group
+set pin 20 t0 23 to output, **4** pin group
 
 ## Auto load module
 

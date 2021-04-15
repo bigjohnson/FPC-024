@@ -41,6 +41,6 @@ if you have problems run it with root privileges...
 
 # Comedi linux driver and library
 
-In the comedi directory you will find instructions to install comedi and comedilib from https://github.com/Linux-Comedi/comedi and how use it with the board. 
+In the comedi directory you will find instructions to install comedi and comedilib from https://github.com/Linux-Comedi and how use it with the board. 
 
 ## Tested with slackware 14.2 on a pentium pc with isa bus.

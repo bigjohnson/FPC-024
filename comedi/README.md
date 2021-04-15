@@ -139,3 +139,5 @@ and power on the first pin of port A
 and power off it
 
 ```./outp 0 -s 0 -c 0```
+
+and read comedilib documentatio going next!

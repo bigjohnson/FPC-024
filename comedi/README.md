@@ -70,9 +70,15 @@ install them with
 
 ## Load the module and test it
 
-load the module with the commands
+load the comedi module with the commands
 
 ```sudo modprobe comedi comedi_num_legacy_minors=1```
+
+that create the device driver
+
+```/dev/comedi0```
+
+and then load the 8255 module
 
 ```sudo modprobe 8255```
 

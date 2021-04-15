@@ -2,6 +2,8 @@
 
 These drivers are for data acquisition cards that use 8255 and some others chip.
 
+With these driver and library you can setup the three 8255 port on mode 0 as input or output, and power on/of sigle pins or read them.
+
 I installed them from sources in a slackware 14.2 32 bit PC.
 
 I prefer slackware 14.2 because the mainboard must have an isa bus, and is old.

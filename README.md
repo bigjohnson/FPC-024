@@ -13,6 +13,8 @@ I putted it in an old pc that has ISA bus and write some c user space code.
 
 In the pdf manual you can find bord adresses and info.
 
+# Direct port acess
+
 ## Program that need root privileges
 
 On the 8255_[12]_[ABC] directory you can find programs that blink single pin using out and inp funtions.
@@ -34,5 +36,7 @@ if you have problems run it with root privileges...
 1. chmod +x compile.sh
 2. chmod +x devport/devport.sh 
 3. ./compile.sh
+
+# Comedi linux driver and library
 
 ## Tested with slackware 14.2 on a pentium pc with isa bus.

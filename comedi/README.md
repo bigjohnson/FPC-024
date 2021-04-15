@@ -142,7 +142,7 @@ and power off it
 
 and read comedilib documentatio going next!
 
-Note that you can only change port direction input or outpub by group of 8 ports, all these command has the same effect
+Note that you can only change port direction input or outpub by group of ports, all these command has the same effect
 
 ```
 ./dio 1 -s 0 -c 0
@@ -155,21 +155,28 @@ Note that you can only change port direction input or outpub by group of 8 ports
 ./dio 1 -s 0 -c 7
 ```
 
-set ports 0 t0 7 to output
+set ports 0 t0 7 to output, **8** port group
 
 ```
 ./dio 1 -s 0 -c 8
    ...
    ```
 
-set ports 8 t0 15 to output
+set ports 8 t0 15 to output, **8** port group
 
 ```
 ./dio 1 -s 0 -c 16
    ...
    ```
 
-set ports 16 t0 23 to output
+set ports 16 t0 19 to output, **4** port group
+
+```
+./dio 1 -s 0 -c 20
+   ...
+   ```
+
+set ports 20 t0 23 to output, **4** port group
 
 ## Auto load module
 

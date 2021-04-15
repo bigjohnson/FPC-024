@@ -151,7 +151,8 @@ edit the file
 for on boot module loading, appending
 
 ```/sbin/modprobe comedi
-/sbin/modprobe 8255```
+/sbin/modprobe 8255
+```
 
 add the file
 

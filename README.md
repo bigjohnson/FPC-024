@@ -15,6 +15,8 @@ In the pdf manual you can find bord adresses and info.
 
 # Direct port acess
 
+On the 8255_direct_port_acess directory there are some direct port access program from userspace.
+
 ## Program that need root privileges
 
 On the 8255_[12]_[ABC] directory you can find programs that blink single pin using out and inp funtions.
@@ -38,5 +40,7 @@ if you have problems run it with root privileges...
 3. ./compile.sh
 
 # Comedi linux driver and library
+
+In the comedi directory you will find instructions to install comedi and comedilib from https://github.com/Linux-Comedi/comedi and how use it with the board. 
 
 ## Tested with slackware 14.2 on a pentium pc with isa bus.

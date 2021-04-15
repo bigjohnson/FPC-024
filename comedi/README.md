@@ -144,24 +144,28 @@ and read comedilib documentatio going next!
 
 Note that you can only change port direction input or outpub by group of 8 ports, all these command has the same effect
 
-```./dio 1 -s 0 -c 0
+```
+./dio 1 -s 0 -c 0
 ./dio 1 -s 0 -c 1
 ./dio 1 -s 0 -c 2
 ./dio 1 -s 0 -c 3
 ./dio 1 -s 0 -c 4
 ./dio 1 -s 0 -c 5
 ./dio 1 -s 0 -c 6
-./dio 1 -s 0 -c 7```
+./dio 1 -s 0 -c 7
+```
 
 set ports 0 t0 7 to output
 
-```./dio 1 -s 0 -c 8
+```
+./dio 1 -s 0 -c 8
    ...
    ```
 
 set ports 8 t0 15 to output
 
-```./dio 1 -s 0 -c 16
+```
+./dio 1 -s 0 -c 16
    ...
    ```
 

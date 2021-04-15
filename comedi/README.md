@@ -34,6 +34,15 @@ from that directory run the
 
 ```./autogen.sh```
 
+then you can set port A of the first 8255 as uotput
+
+```./dio 1 -s 0 -c 0```
+
+and power on the first led
+
+```./outp 1 -s 0 -c 0```
+
+then read the comedilib manual and go...
 then run the configure script
 
 ```./configure --with-linuxdir=/home/yourhome/linux-4.4.14/```

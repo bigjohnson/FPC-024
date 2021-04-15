@@ -22,9 +22,9 @@ copy your kernel config on /home/yourhome/linux-4.4.14
 
 in that directory run
 
-```make oldconfig
+```make oldconfig```
 
-make modules_prepare```
+```make modules_prepare```
 
 download the comedi package from https://github.com/Linux-Comedi/comedilib/ to your home and unzip it in
 

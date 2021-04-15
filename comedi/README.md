@@ -14,77 +14,77 @@ Mount the slackware cd and nstall the package k/kernel-source-4.4.14_smp-noarch-
 
 Copy the files from /usr/src/linux-4.4.14/ to your home
 
-cp /usr/src/linux-4.4.14 /home/yourhome
+```cp /usr/src/linux-4.4.14 /home/yourhome```
 
 copy your kernel config on /home/yourhome/linux-4.4.14
 
-zcat /proc/config.gz > /home/yourhome/linux-4.4.14/.config
+```zcat /proc/config.gz > /home/yourhome/linux-4.4.14/.config```
 
 in that directory run
 
-make oldconfig
+```make oldconfig
 
-make modules_prepare
+make modules_prepare```
 
 download the comedi package from https://github.com/Linux-Comedi/comedilib/ to your home and unzip it in
 
-/home/yourhome/linux-4.4.14/comedi-master
+```/home/yourhome/linux-4.4.14/comedi-master```
 
 from that directory run the
 
-./autogen.sh
+```./autogen.sh```
 
 then run the configure script
 
-./configure --with-linuxdir=/home/yourhome/linux-4.4.14/
+```./configure --with-linuxdir=/home/yourhome/linux-4.4.14/```
 
 and compile the modules with
 
-make
+```make```
 
 install them with
 
-sudo make install
+```sudo make install```
 
 ## Instalaltion of comedilib
 
 download the comedilib package from https://github.com/Linux-Comedi/comedilib/ to your home and unzip it in
 
-/home/yourhome/linux-4.4.14/comedi-master
+```/home/yourhome/linux-4.4.14/comedi-master```
 
 from that directory run the
 
-./autogen.sh
+```./autogen.sh```
 
 then configure the package with
 
-./configure --with-udev-hotplug=/lib --sysconfdir=/etc
+```./configure --with-udev-hotplug=/lib --sysconfdir=/etc```
 
 and compile the library with
 
-make
+```make```
 
 install them with
 
-sudo make install
+```sudo make install```
 
 ## Load the module and test it
 
 load the module with the commands
 
-sudo modprobe comedi comedi_num_legacy_minors=1
+```sudo modprobe comedi comedi_num_legacy_minors=1```
 
-sudo modprobe 8255
+```sudo modprobe 8255```
 
 then configure the board with
 
-sudo comedi_config /dev/comedi0 8255 0x1B0,0x1B4
+```sudo comedi_config /dev/comedi0 8255 0x1B0,0x1B4```
 
 my board has two 8255 at adresses 0x1B0,0x1B4, check your board config
 
 go to /home/yourhome/comedilib-master/demo and run some test programs
 
-./board_info
+```./board_info```
 
 ```overall info:
   version code: 0x00074c

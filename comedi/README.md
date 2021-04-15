@@ -86,7 +86,7 @@ then configure the board with
 
 ```sudo comedi_config /dev/comedi0 8255 0x1B0,0x1B4```
 
-my board has two 8255 at adresses 0x1B0,0x1B4, check your board config
+my board has two 8255 at adresses **0x1B0,0x1B4**, check your board config
 
 go to /home/yourhome/comedilib-master/demo and run some test programs
 

@@ -146,27 +146,27 @@ and read comedilib documentatio going next!
 
 edit the file
 
-/etc/rc.d/rc.modules.local
+```/etc/rc.d/rc.modules.local```
 
 for on boot module loading, appending
 
-/sbin/modprobe comedi
-/sbin/modprobe 8255
+```/sbin/modprobe comedi
+/sbin/modprobe 8255```
 
 add the file
 
-/etc/modprobe.d/comedi.conf
+```/etc/modprobe.d/comedi.conf```
 
 for on boot /dev/comedi0 creation, with content
 
-options comedi comedi_num_legacy_minors=1
+```options comedi comedi_num_legacy_minors=1```
 
 edit file
 
-/etc/rc.d/rc.local
+```/etc/rc.d/rc.local```
 
 for on boot board setup, appending
 
-/usr/local/sbin/comedi_config /dev/comedi0 8255 0x1B0,0x1B4
+```/usr/local/sbin/comedi_config /dev/comedi0 8255 0x1B0,0x1B4```
 
 reboot, and your board will be ready

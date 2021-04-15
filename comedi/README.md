@@ -127,3 +127,15 @@ subdevice 1:
   command:
     not supported
 ```
+
+you can set first 8255 port A as output
+
+```./dio 1 -s 0```
+
+and power on the first pin of port A
+ 
+```./outp 1 -s 0 -c 0```
+
+and power off it
+
+```./outp 0 -s 0 -c 0```

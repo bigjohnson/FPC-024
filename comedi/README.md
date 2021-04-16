@@ -28,7 +28,7 @@ in that directory run
 
 ```make modules_prepare```
 
-download the comedi package from https://github.com/Linux-Comedi/comedilib/ to your home and unzip it in
+download the comedi package from https://github.com/Linux-Comedi/comedi/ to your home and unzip it in
 
 ```/home/yourhome/linux-4.4.14/comedi-master```
 

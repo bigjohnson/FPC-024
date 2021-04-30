@@ -1,6 +1,12 @@
 # FPC-024
 Flytech FCP-024 / FT8501101 8255 ISA board sample code and docs
 
+# Warning in the uswer manual there is an error CN1 pin 22 and 21 are swapped:
+
+# pin 22 is PC6
+
+# pin 21 is PC7
+
 ![FCP-024 photo ](/fpc-024.jpg)
 
 I bought this card in 1998 and never use it, now I have time for play with it.

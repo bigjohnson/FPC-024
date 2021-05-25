@@ -1,7 +1,7 @@
 # FPC-024
 Flytech FCP-024 / FT8501101 8255 ISA board sample code and docs
 
-# Warning in the uswer manual there is an error!
+# Warning in the user manual there is an error!
 
 ## CN1 pin 22 and 21 are swapped:
 

@@ -10,6 +10,8 @@ The chips are ULN2803APG eight array darlinghton.
 
 The file sent to factory for production are in SentToJLCPCBon20210501 directory, they are the file used for building the board that I tested.
 
-![FCP-024 breakout schema](FPC-024_schema.png)
+[FCP-024 breakout schema](FPC-024_schema.png)
 
-![FCP-024 breakout ](FPC-024_breakout.JPG)
+[FCP-024 breakout](FPC-024_breakout.JPG)
+
+

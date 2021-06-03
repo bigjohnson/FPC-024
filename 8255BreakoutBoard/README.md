@@ -14,4 +14,4 @@ The file sent to factory for production are in SentToJLCPCBon20210501 directory,
 
 ![FCP-024 breakout](FPC-024_breakout.JPG)
 
-[![FCP-024 breakout video](https://img.youtube.com/vi/1Ho0DNg8n3U/0.jpg)](https://www.youtube.com/watch?v=1Ho0DNg8n3U&autoplay=1)
+[![FCP-024 breakout video](https://img.youtube.com/vi/1Ho0DNg8n3U/0.jpg)](https://www.youtube.com/watch?v=1Ho0DNg8n3U)

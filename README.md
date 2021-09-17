@@ -21,7 +21,7 @@ I putted it in an old pc that has ISA bus and write some c user space code.
 
 In the pdf manual you can find bord adresses and info.
 
-# Brekout Board
+# Breakout Board
 
 I've made this breakout board for testing purposes:
 

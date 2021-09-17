@@ -21,6 +21,12 @@ I putted it in an old pc that has ISA bus and write some c user space code.
 
 In the pdf manual you can find bord adresses and info.
 
+# Brekout Board
+
+I've made this breakout board for testing purposes:
+
+![FCP-024 breakout photo ](https://raw.githubusercontent.com/bigjohnson/FPC-024/main/8255BreakoutBoard/FPC-024_breakout.JPG)
+
 # Direct port acess
 
 On the 8255_direct_port_acess directory there are some direct port access program from userspace.

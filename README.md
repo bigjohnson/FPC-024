@@ -61,5 +61,5 @@ In the comedi directory you will find instructions to install comedi and comedil
 
 ## Youtube video
 
-![Youtube video]([https://www.youtube.com/watch?v=1Ho0DNg8n3U])
+![Youtube video](https://www.youtube.com/watch?v=1Ho0DNg8n3U)
 

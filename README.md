@@ -58,3 +58,8 @@ if you have problems run it with root privileges...
 In the comedi directory you will find instructions to install comedi and comedilib from https://github.com/Linux-Comedi and how use it with the board. 
 
 ## Tested with slackware 14.2 on a pentium pc with isa bus.
+
+## Youtube video
+
+![Youtube video]([https://myoctocat.com/assets/images/base-octocat.svg](https://i3.ytimg.com/vi/1Ho0DNg8n3U/maxresdefault.jpg)https://i3.ytimg.com/vi/1Ho0DNg8n3U/maxresdefault.jpg)
+

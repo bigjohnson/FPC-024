@@ -59,7 +59,7 @@ In the comedi directory you will find instructions to install comedi and comedil
 
 ## Tested with slackware 14.2 on a pentium pc with isa bus.
 
-## Youtube video
+Youtube video
 
 [![Youtube video](https://i3.ytimg.com/vi/1Ho0DNg8n3U/hqdefault.jpg)](https://www.youtube.com/watch?v=1Ho0DNg8n3U)
 
